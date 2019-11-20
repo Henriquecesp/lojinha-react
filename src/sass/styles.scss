@@ -5,6 +5,7 @@ body {
     background-color: #1C2227;
     overflow-x: hidden;
   }
+  
 .topnav{
     width: 100%;
     height: 80px;
@@ -14,6 +15,7 @@ body {
     background-color: #000;
     position: fixed;
     z-index: 1;
+
 }
 ul {
     display: inline;
@@ -28,6 +30,7 @@ li {
      color: #f9f9f9;
     }
 }
+
 .logo{
     top: 25px;
     position: relative;

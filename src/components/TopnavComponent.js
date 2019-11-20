@@ -12,8 +12,8 @@ const TopnavComponent = () => (
   <header className='topnav'>
   <NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink>
     <ul>
-      <li><a href='/#'>PRODUTOS</a></li>
       <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
+      <li><a href='/#'>PRODUTOS</a></li>
     </ul>
   </header>
 );
