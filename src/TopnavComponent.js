@@ -6,7 +6,7 @@
  **/
 
 import React from "react";
-import './topnav.css';
+import './styles.css';
 
 const TopnavComponent = () => (
   <header className='topnav'>

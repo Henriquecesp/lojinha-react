@@ -1,5 +1,5 @@
 import React from "react";
-import './topnav.css';
+import './styles.css';
 import TopnavComponent from './TopnavComponent'
 import TextomeioComponent from './TextomeioComponent'
 
