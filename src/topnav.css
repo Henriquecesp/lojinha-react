@@ -35,7 +35,7 @@
 .explore {
   position: relative;
   width: 100%;
-  top: 25vh;
+  top: 20vh;
   margin-left: 70%;
 }
 .explore .a, .explore .f {
@@ -67,8 +67,8 @@
 
 .Texto {
   position: relative;
-  left: 40%;
-  top: 20vh;
+  left: 45%;
+  top: 15vh;
   font-family: Poppins;
   font-weight: normal;
   font-size: 60px;
@@ -76,7 +76,9 @@
   text-align: left;
   color: #d1d3db;
 }
-.Texto .id {
+
+.id {
+  top: -10vh;
   position: relative;
   left: 300px;
   font-family: Poppins;
