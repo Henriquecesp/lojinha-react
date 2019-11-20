@@ -1,6 +1,6 @@
 import React from "react";
-import TopnavComponent from './TopnavComponent'
-import TextomeioComponent from './TextomeioComponent'
+import TopnavComponent from '../components/TopnavComponent'
+import TextomeioComponent from '../components/TextomeioComponent'
 
 const Home = () => (
 <div>
