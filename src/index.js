@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-// AOS Lib
 import App from './App';
+// AOS Lib
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // Importando a nossa Lib de rotas
