@@ -1,12 +1,10 @@
 import React from "react";
-import './styles.css';
-import TopnavComponent from './TopnavComponent'
-import TextomeioComponent from './TextomeioComponent'
+import './sass/styles.css';
+import Main from "./Main";
 
 const App = () => (
 <div>
-    <TopnavComponent />
-    <TextomeioComponent />
+    <Main />
 </div>
 );
 

@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// Importando a nossa Lib de rotas
+import { BrowserRouter } from 'react-router-dom'
 AOS.init()
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render((
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+), document.getElementById('root'))
 
 
 

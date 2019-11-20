@@ -6,14 +6,14 @@
  **/
 
 import React from "react";
-import './styles.css';
+import { NavLink } from 'react-router-dom'
 
 const TopnavComponent = () => (
   <header className='topnav'>
     <ul>
-      <li><a className='logo' href='/#'>LOJINHA UNIAMERICA</a></li>
+      <li><NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink></li>
       <li><a className='others' href='/#'>PRODUTOS</a></li>
-      <li><a className='others' href='/#'>SOBRE NÓS</a></li>
+      <li><NavLink className='others' to='/About'>SOBRE NÓS</NavLink></li>
     </ul>
   </header>
 );
