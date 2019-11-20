@@ -10,10 +10,10 @@ import { NavLink } from 'react-router-dom'
 
 const TopnavComponent = () => (
   <header className='topnav'>
+  <NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink>
     <ul>
-      <li><NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink></li>
-      <li><a className='others' href='/#'>PRODUTOS</a></li>
-      <li><NavLink className='others' to='/About'>SOBRE NÓS</NavLink></li>
+      <li><a href='/#'>PRODUTOS</a></li>
+      <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
     </ul>
   </header>
 );

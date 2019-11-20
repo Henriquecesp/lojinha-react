@@ -13,27 +13,27 @@ body {
   background-color: #000;
   position: fixed;
   z-index: 1; }
-  .topnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; }
-  .topnav li {
-    float: left; }
-  .topnav li a {
-    display: block;
-    width: 100%;
+
+ul {
+  display: inline;
+  list-style-type: none; }
+
+li {
+  float: right;
+  font-size: 1.5rem;
+  padding: 25px 80px; }
+  li a {
     text-decoration: none;
-    color: #f9f9f9;
-    font-family: Barlow;
-    text-align: center;
-    font-size: 1.5rem; }
-  .topnav .others {
-    position: relative;
-    left: 70%;
-    margin: 25px 8vw; }
-  .topnav .logo {
-    margin: 25px;
-    margin-left: 40px; }
+    color: #f9f9f9; }
+
+.logo {
+  top: 25px;
+  position: relative;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 1.5rem;
+  display: inline; }
 
 .explore {
   position: relative;
@@ -83,7 +83,6 @@ body {
   text-shadow: 25px 15px 6px #000; }
 
 .bg {
-  background-image: url("../assets/banner1.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+  background: url("../assets/banner1.png") no-repeat 50% 20%;
+  width: 100%;
   height: 90vh; }
