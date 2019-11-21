@@ -10,7 +10,7 @@ import React from "react";
 const ExploreComponent = () => (
 
 <div data-aos="zoom-in" data-aos-duration="3000" className="explore">
- <a href='/#teste'>
+ <a href='/Products'>
   <svg width={396} height={130} viewBox="0 0 600 130">
     <defs>
       <filter
