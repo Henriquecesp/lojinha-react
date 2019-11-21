@@ -6,11 +6,12 @@
  **/
 
 import React from "react";
+import { NavLink } from 'react-router-dom'
 
 const ExploreComponent = () => (
 
 <div data-aos="zoom-in" data-aos-duration="3000" className="explore">
- <a href='/Products'>
+ <NavLink to='/Products'>
   <svg width={396} height={130} viewBox="0 0 600 130">
     <defs>
       <filter
@@ -88,7 +89,7 @@ const ExploreComponent = () => (
       />
     </g>
   </svg>
- </a>
+ </NavLink>
 </div>
 );
 
