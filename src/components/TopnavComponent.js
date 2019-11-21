@@ -13,7 +13,7 @@ const TopnavComponent = () => (
   <NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink>
     <ul>
       <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
-      <li><a href='/#'>PRODUTOS</a></li>
+      <li><NavLink to='/Products'>PRODUTOS</NavLink></li>
     </ul>
   </header>
 );
