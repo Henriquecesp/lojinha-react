@@ -10,7 +10,7 @@ import ExploreComponent from "./ExploreComponent";
 
 
 const TextomeioComponent = () => (
-<div data-aos="fade-up" data-aos-duration="3000" className='bg'>
+<div data-aos="fade-down" data-aos-duration="3000" className='bg'>
  <div data-aos-duration="3000" className='Texto'>
    <div data-aos="fade-left" data-aos-duration="3000">CAMISETAS <br/> PERSONALIZADAS</div> <br/>
    <div data-aos="fade-right" data-aos-duration="2000" className='id'>IDENTIDADE</div>
