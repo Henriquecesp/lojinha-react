@@ -8,6 +8,7 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
 import $ from 'jquery'
+import ProgressBar from "react-scroll-progress-bar"
 
 $(function($) {
 
@@ -34,6 +35,7 @@ const TopnavComponent = () => (
       <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
       <li><NavLink to='/Products'>PRODUTOS</NavLink></li>
     </ul>
+    <ProgressBar bgcolor='#EB8338' />
   </header>
 );
 
