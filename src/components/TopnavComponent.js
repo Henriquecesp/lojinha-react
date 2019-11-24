@@ -29,14 +29,16 @@ $(function($) {
 });
 
 const TopnavComponent = () => (
+  <div>
   <header className='topnav'>
   <NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink>
     <ul>
       <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
       <li><NavLink to='/Products'>PRODUTOS</NavLink></li>
     </ul>
-    <ProgressBar bgcolor='#EB8338' />
   </header>
+  <ProgressBar bgcolor='#EB8338' />
+  </div>
 );
 
 export default TopnavComponent;
