@@ -37,7 +37,7 @@ const TopnavComponent = () => (
       <li><NavLink to='/Products'>PRODUTOS</NavLink></li>
     </ul>
   </header>
-  <ProgressBar bgcolor='#EB8338' />
+  <ProgressBar bgcolor='#EB8338'/>
   </div>
 );
 
