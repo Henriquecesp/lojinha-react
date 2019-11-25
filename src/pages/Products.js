@@ -7,7 +7,9 @@ export default class Products extends Component {
     render() {
         return (
             <React.Fragment>
-                <Title name="Nova" title="Coleção"/>
+                <div className='p-5'>
+                    <Title name="Nova" title="Coleção"/>
+                </div>
                 <TopnavComponent />
                 <Card />
             </React.Fragment>

@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
   background: #000 !important;
   overflow-x: hidden;
   font-family: 'Barlow', sans-serif !important; }
@@ -11,7 +15,7 @@ a {
 
 .text-title {
   font-family: Poppins-Regular, Poppins;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #C5C2CB; }
 
@@ -23,7 +27,7 @@ a {
 
 .topnav {
   width: 100%;
-  height: 80px;
+  height: 10%;
   top: 0;
   display: block;
   position: fixed;
@@ -39,12 +43,16 @@ ul {
   list-style-type: none; }
 
 li {
-  float: right;
+  position: absolute;
   font-size: 1.5rem;
-  padding: 25px 80px; }
+  padding: 0 80px;
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .logo {
-  top: 25px;
   position: relative;
   margin-left: 65px;
   text-decoration: none;
@@ -126,8 +134,9 @@ li {
   background: #1C2227;
   border-top: transparent;
   font-size: 0.8rem;
-  padding: 1rem 0 0 1rem;
-  height: 12vh; }
+  padding: 0.5rem 0 0 1rem;
+  height: 20vh;
+  margin-bottom: 1em !important; }
   .product-wrapper .card-footer .cart-btn {
     background: transparent;
     border: none;
@@ -168,6 +177,11 @@ li {
 .cart-bg {
   background-color: #1C2227;
   border: #C5C2CB solid 1px; }
+
+.price-btn {
+  position: absolute;
+  bottom: 1em;
+  margin-top: 1em; }
 
 /*--------------------------------------------------------*/
 @media only screen and (max-width: 1200px) {

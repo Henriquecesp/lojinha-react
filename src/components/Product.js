@@ -22,14 +22,14 @@ export default class Product extends Component {
                                     <img src={img} alt="product img" className="card-img-top"/>
                                 </NavLink>
                             </div>   
-                            <div className="card-footer">
+                            <div className="card-footer m-auto">
                                 <p className='modelo mb-0 m-2'>
                                     {model}
                                 </p>
                                 <p className='text-white mb-0 ml-2'>
                                     {title}
                                 </p>
-                                <div className="flex">
+                                <div className="flex price-btn">
                                     <h5 className="mb-0 m-2">
                                         <span>
                                             R$
