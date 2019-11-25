@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import {NavLink} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { ProductConsumer } from '../Context';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartPlus, faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 export default class Product extends Component {
     render() {
@@ -42,12 +44,9 @@ export default class Product extends Component {
                                     }} 
                                     >
                                         {inCart ? (
-                                            <p className="text-capitalize mb-0" disabled>
-                                                {''}
-                                                -
-                                                </p>
+                                                <FontAwesomeIcon icon={faCartArrowDown} />
                                                 ) : (
-                                                <span>Carrinho</span>
+                                                <FontAwesomeIcon icon={faCartPlus} />
                                                 )}
                                     </button>
                                 </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {ProductConsumer} from '../Context'
-import { ButtonCart, ButtonContinue } from '../components/ButtonscartComponent'
+import { ButtonToCart, ButtonContinue } from '../components/ButtonscartComponent'
 
 export default class DetailsComponent extends Component {
     render() {
@@ -40,7 +40,7 @@ export default class DetailsComponent extends Component {
                                         <h4 className='text-title text-uppercase text-muted mt-3 mb-2'>
                                             Preço : <span>R$</span>{price}
                                         </h4>
-                                        <ButtonContinue /> <ButtonCart />
+                                        <ButtonContinue /> <ButtonToCart />
                                     </div>
                                 </div>
                             </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {ProductConsumer} from '../Context'
 import {NavLink} from 'react-router-dom'
 
-class ButtonCart extends Component {
+class ButtonToCart extends Component {
     render() {
         return (
             <div>
@@ -14,15 +14,16 @@ class ButtonCart extends Component {
 
                         return (
                             <div>
-                            <button className="btn btn-success"
+                            <NavLink to='/Cart'>
+                            <button className="btn btn-success m-1"
                                 disabled={inCart?true:false}
                                 onClick={()=>{
-                                    value.addToCart(id)
                                     value.openModal(id)
                                 }}
                                 >
-                                {inCart?'No carrinho' : 'Adicionar ao carrinho'}
+                                {inCart?'No carrinho' : 'Ir para o carrinho'}
                             </button>
+                            </NavLink>
                             </div>
                         )
                     }}
@@ -36,12 +37,12 @@ class ButtonContinue extends Component {
     render() {
         return (
             <div>
-                <button className="btn btn-outline-info">
-                    <NavLink to='/'>Continue comprando</NavLink>
+                <button className="btn btn-outline-info m-1">
+                    <NavLink to='/Products'>Continue comprando</NavLink>
                 </button>
             </div>
         )
     }
 }
 
-export {ButtonCart, ButtonContinue}
+export {ButtonToCart, ButtonContinue}

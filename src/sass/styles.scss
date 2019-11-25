@@ -34,7 +34,7 @@ body {
     top: 0;
     display: block;
     position: fixed;
-    z-index: 100;
+    z-index: 50;
     transition: 0.3s all;
     background-color:transparent;
 }
@@ -150,6 +150,7 @@ li {
     border-radius: 3px !important;
 }
 .modal-product{
+    z-index: 80;
     position: fixed;
     display: flex;
     align-items: center;
@@ -161,11 +162,20 @@ li {
     background: rgba($color: $primary-color, $alpha: 0.7);
     color: $white-color;
     #modal{
+        z-index: 100;
         transform: scale(0.9);
         background: #000;
         border-radius: 3px;
         border: $secundary-color solid 1px;
     }
+}
+.empty-position{
+    position: relative;
+    top: 10vh;
+}
+.cart-bg{
+    background-color: $primary-color;
+    border: $secundary-color solid 1px;
 }
 
 
