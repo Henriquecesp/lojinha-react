@@ -17,7 +17,7 @@ const Main = () => (
         <Route path='/Products' component={Products}/>
         <Route path='/Cart' component={Cart}/>
         <Route path='/Details' component={Details}/>
-        <Route component={Default}/>
+        <Route path='/Default' component={Default}/>
       </Switch>
   </main>  
 );
