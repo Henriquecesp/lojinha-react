@@ -46,7 +46,7 @@ export default class Product extends Component {
                                                 -
                                                 </p>
                                                 ) : (
-                                                <span>Carrinho</span> //Carrinho
+                                                <span>Carrinho</span>
                                                 )}
                                     </button>
                                 </div>
