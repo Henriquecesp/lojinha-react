@@ -1,10 +1,16 @@
-import React from "react";
 import TopnavComponent from '../components/TopnavComponent'
+import React, { Component } from 'react'
+import Card from '../components/Card'
+import Title from '../components/Title';
 
-const Products = () => (
-<div>
-    <TopnavComponent />
-</div>
-);
-
-export default Products;
+export default class Products extends Component {
+    render() {
+        return (
+            <React.Fragment>
+                <Title name="Nova" title="Coleção"/>
+                <TopnavComponent />
+                <Card />
+            </React.Fragment>
+        );
+    }
+}
