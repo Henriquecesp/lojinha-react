@@ -62,7 +62,6 @@ li {
 
 .explore{
     position: relative;
-    width: 100%;
     top: 40vh;
     margin-left: 70%;
 .a,.f{fill:none;}
@@ -145,6 +144,18 @@ li {
 }
 
 @media only screen and (max-width: 1200px){
+ .topnav{
+     display: none;
+ }
+ .Texto{
+    display: none;
+ }
+ .explore{
+   margin-left:50%;
+ }
+ .bg{
+    background: $bg no-repeat 40% 20%;
+ }
  .product-wrapper{
      .flex{
          display: block;
