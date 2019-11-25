@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {ProductConsumer} from '../Context'
-import {NavLink} from 'react-router-dom'
+import { ButtonCart, ButtonContinue } from '../components/ButtonscartComponent'
 
 export default class DetailsComponent extends Component {
     render() {
@@ -9,7 +9,7 @@ export default class DetailsComponent extends Component {
                 <ProductConsumer>
                     {(value) => {
                         console.log(value.detailProduct);
-                        const {id,model,img,price,title,info,inCart} = 
+                        const {model,img,price,title,info} = 
                         value.detailProduct;
                         return (
                             <div className="container py-5">
@@ -40,23 +40,9 @@ export default class DetailsComponent extends Component {
                                         <h4 className='text-title text-uppercase text-muted mt-3 mb-2'>
                                             Preço : <span>R$</span>{price}
                                         </h4>
-                                        {/*BUTTONS*/}
-                                        <button className="btn btn-outline-info my-3 mr-3">
-                                            <NavLink to='/'>Continue comprando</NavLink>
-                                        </button>
-                                        <button className="btn btn-success"
-                                        disabled={inCart?true:false}
-                                        onClick={()=>{
-                                            value.addToCart(id)
-                                            value.openModal(id)
-                                        }}
-                                        >
-                                            {inCart?'No carrinho' : 'Adicionar ao carrinho'}
-                                        </button>
+                                        <ButtonContinue /> <ButtonCart />
                                     </div>
                                 </div>
-
-
                             </div>
                         )
                     }}
