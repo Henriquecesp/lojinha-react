@@ -5,6 +5,9 @@ import { Switch, Route } from 'react-router-dom'
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import Cart from "./pages/Cart";
+import Default from "./pages/Default";
+import Details from "./pages/Details";
 
 const Main = () => (
   <main>
@@ -12,6 +15,9 @@ const Main = () => (
         <Route exact path='/' component={Home}/>
         <Route path='/About' component={About}/>
         <Route path='/Products' component={Products}/>
+        <Route path='/Cart' component={Cart}/>
+        <Route path='/Details' component={Details}/>
+        <Route component={Default}/>
       </Switch>
   </main>  
 );

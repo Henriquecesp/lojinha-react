@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import {ProductProvider} from './Context';
 import App from './App';
 // AOS Lib
 import AOS from 'aos';
@@ -11,9 +12,11 @@ import { BrowserRouter } from 'react-router-dom'
 AOS.init()
 
 ReactDOM.render((
+  <ProductProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
+  </ProductProvider> 
 ), document.getElementById('root'))
 
 
