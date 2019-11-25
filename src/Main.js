@@ -8,6 +8,7 @@ import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import Default from "./pages/Default";
 import Details from "./pages/Details";
+import ModalComponent from "./components/ModalComponent";
 
 const Main = () => (
   <main>
@@ -19,6 +20,7 @@ const Main = () => (
         <Route path='/Details' component={Details}/>
         <Route component={Default}/>
       </Switch>
+      <ModalComponent />
   </main>  
 );
 
