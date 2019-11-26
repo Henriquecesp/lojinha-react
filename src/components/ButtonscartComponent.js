@@ -9,7 +9,7 @@ class ButtonToCart extends Component {
         <ProductConsumer>
           {value => {
             console.log(value.detailProduct);
-            const { id, inCart } = value.detailProduct;
+            const { inCart } = value.detailProduct;
 
             return (
               <div>
