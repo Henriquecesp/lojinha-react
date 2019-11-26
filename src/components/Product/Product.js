@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
-import { ProductConsumer } from "../Context";
+import { ProductConsumer } from "../../Context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus, faCartArrowDown } from "@fortawesome/free-solid-svg-icons";
 

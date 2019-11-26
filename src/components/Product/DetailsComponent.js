@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { ProductConsumer } from "../Context";
+import { ProductConsumer } from "../../Context";
 import {
   ButtonToCart,
   ButtonContinue
-} from "../components/ButtonscartComponent";
+} from "../ButtonscartComponent";
 
 export default class DetailsComponent extends Component {
   render() {

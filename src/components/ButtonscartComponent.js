@@ -34,7 +34,7 @@ class ButtonContinue extends Component {
   render() {
     return (
       <div>
-        <button className='btn btn-outline-info m-1'>
+        <button className='btn btn-outline-info text-uppercase m-2 px-4'>
           <NavLink to='/Products'>Continue comprando</NavLink>
         </button>
       </div>

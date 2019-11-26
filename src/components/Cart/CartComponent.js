@@ -16,7 +16,7 @@ export default class CartComponent extends Component {
             if (cart.length > 0) {
               return (
                 <React.Fragment>
-                  <div className='pt-5'>
+                  <div className='pt-1'>
                     <Title name='Seu' title='Carrinho' />
                   </div>
                   <div
@@ -26,7 +26,7 @@ export default class CartComponent extends Component {
                   >
                     <CartColumns />
                     <CartList value={value} />
-                    <CartTotals value={value} />
+                    <CartTotals value={value} history={this.props.history} />
                   </div>
                 </React.Fragment>
               );
