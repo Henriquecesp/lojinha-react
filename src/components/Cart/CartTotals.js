@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { ButtonContinue } from "../ButtonscartComponent";
+import PaypalButton from "./PaypalButton";
 
-const CartTotals = ({ value }) => {
+const CartTotals = ({ value, history }) => {
   const { cartTotal, clearCart } = value;
   return (
     <React.Fragment>
@@ -17,12 +18,17 @@ const CartTotals = ({ value }) => {
               >
                 Limpar Carrinho
               </button>
-              <ButtonContinue />
             </NavLink>
+            <ButtonContinue />
             <h5 className='pt-5'>
               <span className='text-title'>Total : </span>
               <strong>R$ {cartTotal}</strong>
             </h5>
+            <PaypalButton
+              total={cartTotal}
+              clearCart={clearCart}
+              history={history}
+            />
           </div>
         </div>
       </div>
