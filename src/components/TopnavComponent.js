@@ -6,9 +6,9 @@ const TopnavComponent = () => (
   <header className='topnav nav-colored'>
   <NavLink className='logo' to="/">LOJINHA UNIAMERICA</NavLink>
     <ul>
-      <li><NavLink to='/Cart'>CARRINHO</NavLink></li>
-      <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
       <li><NavLink to='/Products'>PRODUTOS</NavLink></li>
+      <li><NavLink to='/About'>SOBRE NÓS</NavLink></li>
+      <li><NavLink to='/Cart'>CARRINHO</NavLink></li>
     </ul>
   </header>
   </div>
