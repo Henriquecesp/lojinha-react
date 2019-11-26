@@ -17,9 +17,6 @@ class ButtonToCart extends Component {
                   <button
                     className='btn btn-success m-1'
                     disabled={inCart ? true : false}
-                    onClick={() => {
-                      value.openModal(id);
-                    }}
                   >
                     {inCart ? "No carrinho" : "Ir para o carrinho"}
                   </button>
