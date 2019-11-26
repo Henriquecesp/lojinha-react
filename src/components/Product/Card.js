@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { ProductConsumer } from "../Context";
-import Product from "../components/Product";
+import { ProductConsumer } from "../../Context";
+import Product from '../Product/Product'
 
 export default class Card extends Component {
   render() {

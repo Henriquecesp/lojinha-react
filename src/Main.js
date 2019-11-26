@@ -8,7 +8,7 @@ import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import Default from "./pages/Default";
 import Details from "./pages/Details";
-import ModalComponent from "./components/ModalComponent";
+import ModalComponent from "./components/Product/ModalComponent";
 
 const Main = () => (
   <main>

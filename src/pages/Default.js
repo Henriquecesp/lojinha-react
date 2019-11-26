@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TopnavComponent from "../components/TopnavComponent";
-import Error from "../components/Error";
+import Error from "../components/Error/Error";
 
 export default class Default extends Component {
   render() {

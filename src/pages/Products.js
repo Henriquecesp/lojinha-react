@@ -1,6 +1,6 @@
 import TopnavComponent from "../components/TopnavComponent";
 import React, { Component } from "react";
-import Card from "../components/Card";
+import Card from "../components/Product/Card";
 import Title from "../components/Title";
 
 export default class Products extends Component {
