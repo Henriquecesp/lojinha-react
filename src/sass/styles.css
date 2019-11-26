@@ -32,7 +32,6 @@ a {
   display: block;
   position: fixed;
   z-index: 50;
-  transition: 0.3s all;
   background-color: transparent; }
 
 .nav-colored {
@@ -185,6 +184,12 @@ li {
   bottom: 1em;
   margin-top: 1em; }
 
+.svg-error {
+  position: relative;
+  padding-top: 10%;
+  text-align: center;
+  transition: 0.3s ease-in all; }
+
 /*--------------------------------------------------------*/
 @media only screen and (max-width: 1200px) {
   .topnav {
@@ -202,4 +207,11 @@ li {
   .product-wrapper .cart-btn {
     margin-left: 0; }
   #modal {
-    transform: scale(0.5); } }
+    transform: scale(0.5); }
+  .svg-error {
+    transform: scale(0.8); } }
+
+@media only screen and (max-width: 1000px) {
+  .svg-error {
+    transform: scale(0.4);
+    margin-left: -18vh; } }
