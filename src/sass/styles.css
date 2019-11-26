@@ -43,17 +43,19 @@ ul {
   list-style-type: none; }
 
 li {
-  position: absolute;
-  font-size: 1.5rem;
   padding: 0 80px;
-  float: right;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 25%;
+  left: 12%;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 1.5rem;
+  display: inline; }
 
 .logo {
   position: relative;
+  top: 25%;
   margin-left: 65px;
   text-decoration: none;
   color: #f9f9f9;
@@ -73,7 +75,7 @@ li {
   .explore .c, .explore .d {
     fill: #1c2227; }
   .explore .c {
-    font-size: 47px;
+    font-size: 2.5rem;
     font-family: Poppins-Regular, Poppins;
     letter-spacing: 0.05em; }
   .explore .e {
@@ -165,7 +167,7 @@ li {
   color: #f9f9f9; }
   .modal-product #modal {
     z-index: 100;
-    transform: scale(0.9);
+    transform: scale(0.7);
     background: #000;
     border-radius: 3px;
     border: #C5C2CB solid 1px; }
