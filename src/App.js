@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./sass/styles.css";
+import "./sass/styles.scss";
 import Main from "./Main";
 
 const App = () => (
