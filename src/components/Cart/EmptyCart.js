@@ -1,14 +1,11 @@
 import React from "react";
+import Title from '../Title'
 
 const EmptyCart = () => {
   return (
-    <div className='container mt-5'>
-      <div className='row'>
-        <div className='empty-position col-10 mx-auto text-center text-title text-white'>
-          <h1>Seu carrinho esta vazio.</h1>
-        </div>
-      </div>
-    </div>
+    <div className='pt-1'>
+    <Title name='Carrinho vazio' title='volte e continue comprando' />
+  </div>
   );
 };
 
