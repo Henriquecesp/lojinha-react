@@ -8,7 +8,7 @@ export default class Products extends Component {
     return (
       <React.Fragment>
         <TopnavComponent />
-        <div className='p-5'>
+        <div className='p-1'>
           <Title name='Nova' title='Coleção' />
         </div>
         <Card />

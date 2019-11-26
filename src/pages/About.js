@@ -6,7 +6,7 @@ import Title from "../components/Title";
 const About = () => (
   <div>
     <TopnavComponent />
-    <div className='p-5'>
+    <div className='p-1'>
       <Title name='SOBRE' title='NÓS' />
       <AboutComponent />
     </div>
