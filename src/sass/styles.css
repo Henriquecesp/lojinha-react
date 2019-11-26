@@ -7,7 +7,7 @@
 body {
   background: #000 !important;
   overflow-x: hidden;
-  font-family: 'Barlow', sans-serif !important; }
+  font-family: "Barlow", sans-serif !important; }
 
 a {
   text-decoration: none !important;
@@ -17,7 +17,7 @@ a {
   font-family: Poppins-Regular, Poppins;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #C5C2CB; }
+  color: #c5c2cb; }
 
 .top-space {
   margin-top: 10vh; }
@@ -32,10 +32,11 @@ a {
   display: block;
   position: fixed;
   z-index: 50;
-  background-color: transparent; }
+  background-color: transparent;
+  transition: all 0.5s ease-in; }
 
 .nav-colored {
-  background-color: #1C2227; }
+  background-color: #1c2227; }
 
 ul {
   display: inline;
@@ -62,16 +63,19 @@ li {
   display: inline; }
 
 .explore {
-  position: relative;
-  top: 40vh;
-  margin-left: 70%; }
-  .explore .a, .explore .f {
+  position: absolute;
+  top: 60vh;
+  left: 70%;
+  transition: all 0.5s ease-in; }
+  .explore .a,
+  .explore .f {
     fill: none; }
   .explore .a {
     stroke: #ec8337; }
   .explore .b {
     fill: url(#c); }
-  .explore .c, .explore .d {
+  .explore .c,
+  .explore .d {
     fill: #1c2227; }
   .explore .c {
     font-size: 2.5rem;
@@ -84,16 +88,17 @@ li {
   .explore .h {
     filter: url(#a); }
 
-.Texto {
+.texto {
   position: relative;
   left: 45%;
   top: 20vh;
   font-family: Poppins;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 2.5rem !important;
   letter-spacing: 0.05em;
   text-align: left;
-  color: #d1d3db; }
+  color: #d1d3db;
+  transition: all 0.5s ease-in; }
 
 .id {
   position: relative;
@@ -116,7 +121,7 @@ li {
   width: 100%; }
 
 .product-wrapper .card {
-  background-color: #1C2227;
+  background-color: #1c2227;
   transition: all 0.5s linear;
   border: 1px solid #cac9d1; }
 
@@ -132,7 +137,7 @@ li {
   transform: scale(1.2); }
 
 .product-wrapper .card-footer {
-  background: #1C2227;
+  background: #1c2227;
   border-top: transparent;
   font-size: 0.8rem;
   padding: 0.5rem 0 0 1rem;
@@ -169,15 +174,15 @@ li {
     transform: scale(0.7);
     background: #000;
     border-radius: 3px;
-    border: #C5C2CB solid 1px; }
+    border: #c5c2cb solid 1px; }
 
 .empty-position {
   position: relative;
   top: 10vh; }
 
 .cart-bg {
-  background-color: #1C2227;
-  border: #C5C2CB solid 1px; }
+  background-color: #1c2227;
+  border: #c5c2cb solid 1px; }
 
 .price-btn {
   position: absolute;
@@ -193,11 +198,14 @@ li {
 /*--------------------------------------------------------*/
 @media only screen and (max-width: 1200px) {
   .topnav {
-    display: none; }
-  .Texto {
-    display: none; }
+    transform: translateY(-3in); }
+  .texto {
+    left: 10%;
+    top: 5vh; }
+  .id {
+    top: -3vh; }
   .explore {
-    margin-left: 50%; }
+    transform: translateX(-80px); }
   .bg {
     background: url("../assets/banner1.png") no-repeat 40% 20%; }
   .product-wrapper .flex {
@@ -214,4 +222,8 @@ li {
 @media only screen and (max-width: 1000px) {
   .svg-error {
     transform: scale(0.4);
-    margin-left: -18vh; } }
+    margin-left: -18vh; }
+  .id {
+    left: 5%; }
+  .explore {
+    left: 15%; } }
