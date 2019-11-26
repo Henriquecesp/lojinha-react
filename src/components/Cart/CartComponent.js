@@ -4,6 +4,7 @@ import CartColumns from "./CartColumns";
 import EmptyCart from "./EmptyCart";
 import { ProductConsumer } from "../../Context";
 import CartList from "./CartList";
+import CartTotals from "./CartTotals";
 
 export default class CartComponent extends Component {
   render() {
@@ -25,6 +26,7 @@ export default class CartComponent extends Component {
                   >
                     <CartColumns />
                     <CartList value={value} />
+                    <CartTotals value={value} />
                   </div>
                 </React.Fragment>
               );
