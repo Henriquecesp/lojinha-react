@@ -1,12 +1,11 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './sass/styles.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./sass/styles.css";
 import Main from "./Main";
 
-
 const App = () => (
-<div>
+  <div>
     <Main />
-</div>
+  </div>
 );
 export default App;

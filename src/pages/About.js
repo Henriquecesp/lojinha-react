@@ -1,10 +1,10 @@
 import React from "react";
-import TopnavComponent from '../components/TopnavComponent'
+import TopnavComponent from "../components/TopnavComponent";
 
 const About = () => (
-<div>
+  <div>
     <TopnavComponent />
-</div>
+  </div>
 );
 
 export default About;
