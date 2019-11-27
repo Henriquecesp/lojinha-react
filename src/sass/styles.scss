@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 $bg: url("../assets/banner1.png");
 $primary-color: #1c2227;
-$secundary-color: #c5c2cb;
+$secundary-color: #cfcbd8;
 $white-color: #f9f9f9;
 $orange-color: #ec8337;
+$footer-color: #cecaca;
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +32,12 @@ a {
 }
 .text-white {
   color: $white-color;
+}
+.text-footer{
+  font-size: 1.5rem;
+}
+.text-secondary{
+  color: $footer-color !important;
 }
 .text-topnav {
   top: 0;
@@ -214,6 +222,11 @@ li {
   position: relative;
   text-align: center;
   transition: 0.3s ease-in all;
+}
+.footer{
+  height: 100%;
+  bottom: 0;
+  background: $primary-color;
 }
 
 /*--------------------------------------------------------*/
