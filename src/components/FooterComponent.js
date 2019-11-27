@@ -38,6 +38,11 @@ export default class FooterComponent extends Component {
                             </InputGroup.Append>
                         </InputGroup>
                     </div>
+
+                </div>
+                <hr className='footer-line' />
+                <div className="text-center text-white py-3">
+                    <span>Site feito por Henrique, Elison & Mauricio. Visite ES, sala 404</span>
                 </div>
             </div>
         )
