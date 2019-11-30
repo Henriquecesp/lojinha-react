@@ -118,9 +118,9 @@ class ProductProvider extends Component {
     var del = window.confirm("Deseja remover item do carrinho ?");
     if (del === true) {
       this.removeItem(id);
-      console.log('item removido');
-    }else{
-      console.log('Cancelou a remoção');
+      console.log("item removido");
+    } else {
+      console.log("Cancelou a remoção");
       product.count = 1;
     }
   };
