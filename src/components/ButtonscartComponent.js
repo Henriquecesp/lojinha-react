@@ -17,7 +17,7 @@ class ButtonToCart extends Component {
                   <button
                     className='btn btn-success mx-1'
                   >
-                    {inCart ? "No carrinho" : "Ir para o carrinho"}
+                    {inCart ? "No carrinho" : "Ver carrinho"}
                   </button>
                 </NavLink>
               </div>
