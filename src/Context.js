@@ -97,7 +97,7 @@ class ProductProvider extends Component {
 
     product.count = product.count - 1;
     if (product.count === 0) {
-      this.removeItem(id);
+      this.confirmDel(id);
     } else {
       product.total = product.count * product.price;
       this.setState(
@@ -108,6 +108,20 @@ class ProductProvider extends Component {
           this.addTotals();
         }
       );
+    }
+  };
+  confirmDel = id => {
+    let tempCart = [...this.state.cart];
+    const selectedProduct = tempCart.find(item => item.id === id);
+    const index = tempCart.indexOf(selectedProduct);
+    const product = tempCart[index];
+    var del = window.confirm("Deseja remover item do carrinho ?");
+    if (del === true) {
+      this.removeItem(id);
+      console.log('item removido');
+    }else{
+      console.log('Cancelou a remoção');
+      product.count = 1;
     }
   };
   removeItem = id => {
