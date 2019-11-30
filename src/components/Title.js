@@ -9,7 +9,7 @@ const Title = ({ name, title }) => {
     >
       <div className='col-10 mx-auto my-2 text-center text-title'>
         <h1>
-          {name} <strong className='text-white'>{title}</strong>
+          {name} <strong className='text-primary'>{title}</strong>
         </h1>
       </div>
     </div>

@@ -8,12 +8,14 @@ import {
   Button
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 export default class NewTopNavComponent extends Component {
   render() {
     return (
       <div className='text-topnav'>
-        <Navbar className='bg-topnav' expand='lg' variant='dark'>
+        <Navbar className='bg-topnav' expand='lg' bg='light'>
           <NavLink to='/'>
             <Navbar.Brand className='logo'>Lojinha Uniamerica</Navbar.Brand>
           </NavLink>
@@ -27,7 +29,7 @@ export default class NewTopNavComponent extends Component {
                 <NavLink to='/About'>Sobre</NavLink>
               </div>
               <div className='mx-lg-2'>
-                <NavLink to='/Cart'>Carrinho</NavLink>
+                <NavLink to='/Cart'><FontAwesomeIcon icon={faShoppingCart}/></NavLink>
               </div>
 
               {/*
@@ -49,10 +51,10 @@ export default class NewTopNavComponent extends Component {
             <Form inline>
               <FormControl
                 type='text'
-                placeholder='Search'
+                placeholder='Buscar'
                 className='mr-sm-2'
               />
-              <Button variant='outline-success'>Search</Button>
+              <Button variant='success'><FontAwesomeIcon icon={faSearch}/></Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
