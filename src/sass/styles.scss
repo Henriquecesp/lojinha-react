@@ -263,6 +263,10 @@ li {
   height: 100%;
   bottom: 0;
   background: $linear-blue;
+  i:hover{
+    display: inline;
+    background: $secundary-color;
+  }
 }
 .footer-line{
   display: block;
@@ -270,6 +274,7 @@ li {
   border-style: inset;
   border-width: 1px;
   opacity: 0.1;
+  width: 100%;
 }
 
 /*--------------------------------------------------------*/

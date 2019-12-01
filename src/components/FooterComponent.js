@@ -16,13 +16,13 @@ export default class FooterComponent extends Component {
           <div className='col-xs-1 col-xl-3'>
             <p className='text-white text-uppercase'>menu</p>
             <NavLink to='/Products'>
-              <p>Produtos</p>
+              <p><i>Produtos</i></p>
             </NavLink>
             <NavLink to='/About'>
-              <p>Sobre</p>
+              <p><i>Sobre</i></p>
             </NavLink>
             <NavLink to='/Cart'>
-              <p>Carrinho</p>
+              <p><i>Carrinho</i></p>
             </NavLink>
           </div>
           <div className='col-xs-1 col-xl-3'>
