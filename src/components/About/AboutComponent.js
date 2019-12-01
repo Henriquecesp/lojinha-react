@@ -21,10 +21,10 @@ export default class AboutComponent extends Component {
             data-aos-duration='2500'
             className='col-xs-6 col-lg-10 col-xl-4 mx-auto text-white'
           >
-            <h4 class='mt-5 text-primary'>
+            <h4 className='mt-5 text-primary'>
               <strong>Lojinha Uniamerica</strong>
             </h4>
-            <p class='mb-0 text-white'>
+            <p className='mb-0 text-white'>
               O projeto lojinha Uniamerica, surge de um problema real enfrentado
               pelos alunos do curso de Engenharia de Software, tem como objetivo
               facilitar cursos a obterem sua identidade através de nossos
@@ -35,7 +35,7 @@ export default class AboutComponent extends Component {
                 Entre em contato com um dos alunos envolvidos no projeto para
                 saber mais.
               </p>
-              <button type='submit' class='mt-4 btn btn-lg btn-success mx-auto'>
+              <button type='submit' className='mt-4 btn btn-lg btn-success mx-auto'>
                 Fale conosco!
               </button>
             </form>

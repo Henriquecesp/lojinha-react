@@ -17,7 +17,7 @@ const TextomeioComponent = () => (
   >
     <div data-aos-duration='3000' className='texto'>
       <div data-aos='fade-left' data-aos-duration='3000'>
-        <p classname='id'>
+        <p className='id'>
           CAMISETAS <br /> PERSONALIZADAS
         </p>
       </div>

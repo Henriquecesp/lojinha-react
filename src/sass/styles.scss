@@ -328,6 +328,9 @@ li {
   .svg-error {
     transform: scale(0.8);
   }
+  .navbar{
+    justify-content: space-between;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -337,8 +340,15 @@ li {
   }
   .id {
     left: 5%;
+    font-size: 2rem;
   }
   .explore {
     left: 15%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .navbar{
+    justify-content: left;
   }
 }
