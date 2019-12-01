@@ -58,6 +58,7 @@ const CartItem = ({ item, value }) => {
         </strong>
         R${total}
       </div>
+      <hr className='footer-line' />
     </div>
   );
 };
