@@ -17,9 +17,9 @@ export default class DetailsComponent extends Component {
                     data-aos='fade-left'
                     data-aos-duration='3000'
                     className='col-10 mx-auto 
-                                    text-center text-secondary text-uppercase pt-5 my-5'
+                                    text-center text-secondary text-uppercase my-5'
                   >
-                    <h1>{title}</h1>
+                   <h1 className='text-secondary text-title'>{title}</h1>
                   </div>
                 </div>
                 {/*END TITLE*/}

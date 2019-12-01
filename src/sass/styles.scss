@@ -6,6 +6,7 @@ $white-color: #ffff;
 $black-color: #000;
 $orange-color: #ec8337;
 $footer-color: #ffff;
+$linear-blue: linear-gradient(165deg, #001e44, #003343e8);
 
 * {
   margin: 0;
@@ -106,7 +107,7 @@ li {
   height: 90vh;
 }
 .details{
-  background: $secundary-color;
+  background: $linear-blue;
 }
 .explore {
   position: absolute;
@@ -177,7 +178,7 @@ li {
 }
 .product-wrapper {
   .card {
-    background-color: $secundary-color;
+    background: $linear-blue;
     transition: all 0.5s linear;
     border: 1px solid #cac9d1;
   }
@@ -193,7 +194,6 @@ li {
     transform: scale(1.2);
   }
   .card-footer {
-    background: $secundary-color;
     border-top: transparent;
     font-size: 0.8rem;
     padding: 0.5rem 0 0 1rem;
@@ -233,7 +233,7 @@ li {
   #modal {
     z-index: 100;
     transform: scale(0.7);
-    background:$secundary-color;
+    background:$linear-blue;
     border-radius: 3px;
     border: $secundary-color solid 1px;
   }
@@ -243,7 +243,7 @@ li {
   top: 10vh;
 }
 .cart-bg {
-  background-color: $secundary-color;
+  background: $linear-blue;
   border: $secundary-color solid 1px;
 }
 .empty-cart{
@@ -262,7 +262,7 @@ li {
 .footer{
   height: 100%;
   bottom: 0;
-  background: linear-gradient(165deg, #001e44, #003343e8, #004b2cda);
+  background: $linear-blue;
 }
 .footer-line{
   display: block;
