@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 export default class FeaturedComponent extends Component {
   render() {
@@ -22,9 +23,11 @@ export default class FeaturedComponent extends Component {
               className='img-fluid card'
             />
             <div className='inside-img'>
-              <p className='text-black text-uppercase'>
-                Conheça <FontAwesomeIcon icon={faArrowRight} />
-              </p>
+              <NavLink to='/Products'>
+                <p className='text-black text-uppercase'>
+                  Conheça <FontAwesomeIcon icon={faArrowRight} />
+                </p>
+              </NavLink>
               <hr className='line' />
             </div>
           </div>
