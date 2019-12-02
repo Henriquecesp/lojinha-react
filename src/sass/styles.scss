@@ -312,9 +312,11 @@ li {
 }
 .promotion {
   background: linear-gradient(#001e44 0%, #1f5644 52.3%, #001e44 100%);
+  box-shadow: 1px 1px 6px #000;
 }
-.opnion{
+.opinion{
   background: $linear-grey;
+  box-shadow: 1px 1px 6px #000;
 }
 /*--------------------------------------------------------*/
 
