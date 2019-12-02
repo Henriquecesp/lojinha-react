@@ -294,20 +294,23 @@ li {
   opacity: 0.1;
   width: 100%;
 }
-.line{
+.line {
   width: 90px;
 }
-.featured{
+.featured {
   padding-top: 46%;
-  padding-bottom:46%;
+  padding-bottom: 46%;
 }
-.inside-img{
+.inside-img {
   position: absolute;
   left: 60%;
   top: 70%;
-  p{
+  p {
     font-size: 2rem;
   }
+}
+.promotion {
+  background: linear-gradient(#001e44 0%, #1f5644 52.3%, #001e44 100%);
 }
 /*--------------------------------------------------------*/
 
@@ -342,7 +345,7 @@ li {
   .svg-error {
     transform: scale(0.8);
   }
-  .navbar{
+  .navbar {
     justify-content: space-between;
   }
 }
@@ -359,15 +362,15 @@ li {
   .explore {
     left: 15%;
   }
-  .inside-img{
-    p{
+  .inside-img {
+    p {
       font-size: 1.3rem;
     }
   }
 }
 
-@media only screen and (max-width: 800px){
-  .navbar{
+@media only screen and (max-width: 800px) {
+  .navbar {
     justify-content: left;
   }
 }
