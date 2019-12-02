@@ -10,6 +10,7 @@ export default class OpinionComponent extends Component {
       name: "joao da costa",
       opinion: "Site muito bom, nota 10 recomendo!"
     };
+    console.log(user);
     return (
       <div
         data-aos='fade-down'
