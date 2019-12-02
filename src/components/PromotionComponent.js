@@ -16,7 +16,7 @@ export default class PromotionComponent extends Component {
             <div
               data-aos='fade-right'
               data-aos-duration='3000'
-              className='mx-auto py-5 col-2 col-lg-4'
+              className='mx-auto py-5 col-10 col-lg-4'
             >
               <h3 className='text-title text-white text-uppercase'>
                 cadastre-se para receber lançamentos e ganhe descontos!
@@ -25,7 +25,7 @@ export default class PromotionComponent extends Component {
             <div
               data-aos='fade-left'
               data-aos-duration='3000'
-              className='m-auto col-4 py-5 justify-content-center'
+              className='m-auto col-10 col-lg-4 py-5 justify-content-center'
             >
               <InputGroupComponent />
             </div>
