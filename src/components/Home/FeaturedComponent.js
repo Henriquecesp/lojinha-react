@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class FeaturedComponent extends Component {
   render() {
     return (
-      <div className='container featured'>
+      <div className='container-fluid featured'>
         <div className='row mx-5 py-5 justify-content-md-center'>
           <div className='col-xs-1 col-xl-6'>
             <img
@@ -16,9 +16,9 @@ export default class FeaturedComponent extends Component {
           <div className='col-xs-1 col-xl-3'>
             <div className='details'>
               <div className='txt-1 text-item'>
-                  <p className='text-white text-title'>Camisetas</p>
-                  <hr className='footer-line' />
-                  <p className='text-white'>Conforto & Estilo</p>
+                <p className='text-white text-title'>Camisetas</p>
+                <hr className='footer-line' />
+                <p className='text-white'>Conforto & Estilo</p>
               </div>
               <img
                 src='./img/product-1.jpg'
@@ -36,9 +36,9 @@ export default class FeaturedComponent extends Component {
                 className='img-fluid'
               />
               <div className='txt-1 text-item'>
-                  <p className='text-white text-title'>Canecas</p>
-                  <hr className='footer-line' />
-                  <p className='text-white'>Personalidade</p>
+                <p className='text-white text-title'>Canecas</p>
+                <hr className='footer-line' />
+                <p className='text-white'>Personalidade</p>
               </div>
             </div>
           </div>
