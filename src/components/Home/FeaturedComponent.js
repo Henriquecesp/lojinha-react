@@ -46,7 +46,7 @@ export default class FeaturedComponent extends Component {
                   alt='camiseta'
                   className='card-img-top'
                 />
-                <div className='card-body  featured'>
+                <div className='card-body featured'>
                   <p className='card-text text-center text-title text-white'>
                     CAMISETAS
                   </p>
