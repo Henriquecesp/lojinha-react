@@ -295,30 +295,12 @@ li {
   width: 100%;
 }
 .featured{
-  .img-1{
-    height: 40vh;
-  }
-  .img-2{
-    height: 74.3vh;
-  }
   .txt-1{
     height: 30vh;
     position: relative;
     top: 10vh;
     vertical-align: middle;
     text-align: center;
-  }
-
-}
-.text-box{
-  position: relative;
-  top: 50%;
-  height: 40vh;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  .text-item{
-    transform: translateY(180%);
   }
 }
 
@@ -357,11 +339,6 @@ li {
   }
   .navbar{
     justify-content: space-between;
-  }
-  .featured{
-    .img-2{
-      height: auto;
-    }
   }
 }
 
