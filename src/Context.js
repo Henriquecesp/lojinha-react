@@ -117,8 +117,8 @@ class ProductProvider extends Component {
     const product = tempCart[index];
     var del = window.confirm("Deseja remover item do carrinho ?");
     if (del === true) {
-      this.removeItem(id);
       console.log("operação confirmada");
+      this.removeItem(id);
     } else {
       console.log("Cancelou a remoção");
       product.count = 1;
