@@ -122,7 +122,7 @@ li {
   opacity: 0.3;
   position: absolute;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .details {
   background: $linear-blue;
@@ -188,7 +188,7 @@ li {
 
 .bg {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .img-size {
   max-height: 700px;
@@ -294,6 +294,33 @@ li {
   opacity: 0.1;
   width: 100%;
 }
+.featured{
+  .img-1{
+    height: 40vh;
+  }
+  .img-2{
+    height: 63.8vh;
+  }
+  .txt-1{
+    height: 30vh;
+    position: relative;
+    top: 10vh;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+}
+.text-box{
+  position: relative;
+  top: 50%;
+  height: 40vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  .text-item{
+    transform: translateY(180%);
+  }
+}
 
 /*--------------------------------------------------------*/
 
@@ -330,6 +357,11 @@ li {
   }
   .navbar{
     justify-content: space-between;
+  }
+  .featured{
+    .img-2{
+      height: auto;
+    }
   }
 }
 
