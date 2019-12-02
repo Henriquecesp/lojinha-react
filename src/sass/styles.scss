@@ -7,6 +7,7 @@ $black-color: #000;
 $orange-color: #ec8337;
 $footer-color: #ffff;
 $linear-blue: linear-gradient(165deg, #001e44, #003343e8);
+$linear-grey: linear-gradient(#c9c9c9 0%, #e9e9e9 52.3%, #c9c9c9 100%);;
 
 * {
   margin: 0;
@@ -311,6 +312,9 @@ li {
 }
 .promotion {
   background: linear-gradient(#001e44 0%, #1f5644 52.3%, #001e44 100%);
+}
+.opnion{
+  background: $linear-grey;
 }
 /*--------------------------------------------------------*/
 
