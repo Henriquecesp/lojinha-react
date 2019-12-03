@@ -11,7 +11,7 @@ export default class FeaturedComponent extends Component {
         <Title name='Para' title='Você' />
         <div
           data-aos='fade-up'
-          data-aos-duration='2000'
+          data-aos-duration='1000'
           className='container-fluid'
         >
           <div className='row mx-5 py-5 justify-content-md-center'>
@@ -70,7 +70,7 @@ export default class FeaturedComponent extends Component {
                   <p className='text-white text-center'>Personalidade</p>
                 </div>
                 <img
-                  src='./img/product-2.PNG'
+                  src='./img/product-2.png'
                   alt='camiseta'
                   className='card-img-bottom'
                 />
