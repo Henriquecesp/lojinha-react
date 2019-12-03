@@ -1,3 +1,11 @@
+Lojinha Uniamerica é um projeto que tem o objetivo de conectar os acadêmicos com o design e fornecedores, ofertando um diferente e otimizado processo de criação de uma identidade visual.
+
+Projeto realizado por alunos do curso de Engenharia de Software - UNIAMERICA.
+
+Utilizando React Js.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
