@@ -36,8 +36,8 @@ const ExploreComponent = () => (
             y2={0.58}
             gradientUnits='objectBoundingBox'
           >
-            <stop offset={0} stopColor='#eca137' />
-            <stop offset={1} stopColor='#ec8237' />
+            <stop offset={0} stopColor='#61AB49' />
+            <stop offset={1} stopColor='#044C22' />
           </linearGradient>
           <filter
             id='d'
@@ -78,7 +78,7 @@ const ExploreComponent = () => (
             />
           </g>
           <text className='c' transform='translate(47 63)'>
-            <tspan x={0} y={0}>
+            <tspan x={0} y={-2}>
               {"EXPLORE"}
             </tspan>
           </text>

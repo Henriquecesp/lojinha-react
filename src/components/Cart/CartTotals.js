@@ -21,7 +21,7 @@ const CartTotals = ({ value, history }) => {
             </NavLink>
             <ButtonContinue />
             <h5 className='pt-5'>
-              <span className='text-title'>Total : </span>
+              <span className='text-title text-white'>Total : </span>
               <strong>R$ {cartTotal}</strong>
             </h5>
             <PaypalButton

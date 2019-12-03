@@ -9,6 +9,7 @@ import Cart from "./pages/Cart";
 import Default from "./pages/Default";
 import Details from "./pages/Details";
 import ModalComponent from "./components/Product/ModalComponent";
+import FooterComponent from "./components/FooterComponent";
 
 const Main = () => (
   <main>
@@ -21,6 +22,7 @@ const Main = () => (
       <Route component={Default} />
     </Switch>
     <ModalComponent />
+    <FooterComponent />
   </main>
 );
 

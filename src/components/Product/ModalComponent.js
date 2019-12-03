@@ -31,7 +31,7 @@ export default class ModalComponent extends Component {
                           alt='product img'
                         />
                         <h3>{title}</h3>
-                        <h4 className='text-muted'>Preço : R$ {price}</h4>
+                        <h4 className='text-muted text-white'>Preço : R$ {price}</h4>
                         <div className='d-flex flex-row justify-content-center'>
                           <ButtonContinue onClick={() => closeModal()} />
                           <ButtonToCart />

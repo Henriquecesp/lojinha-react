@@ -26,7 +26,7 @@ export default class Product extends Component {
                   <p className='modelo mb-0 m-2'>{model}</p>
                   <p className='text-white mb-0 ml-2'>{title}</p>
                   <div className='flex price-btn'>
-                    <h5 className='mb-0 m-2'>
+                    <h5 className='mb-0 m-2 text-white'>
                       <span>R$</span>
                       {price}
                     </h5>

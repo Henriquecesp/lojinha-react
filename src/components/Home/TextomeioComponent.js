@@ -9,14 +9,21 @@ import React from "react";
 import ExploreComponent from "./ExploreComponent";
 
 const TextomeioComponent = () => (
-  <div data-aos='fade-down' data-aos-duration='3000' className='bg'>
+  <div
+    id='banner-home'
+    data-aos='fade-down'
+    data-aos-duration='2500'
+    className='bg'
+  >
     <div data-aos-duration='3000' className='texto'>
       <div data-aos='fade-left' data-aos-duration='3000'>
-        CAMISETAS <br /> PERSONALIZADAS
-      </div>{" "}
+        <p className='id'>
+          CAMISETAS <br /> PERSONALIZADAS
+        </p>
+      </div>
       <br />
-      <div data-aos='fade-right' data-aos-duration='2000' className='id'>
-        IDENTIDADE
+      <div data-aos='fade-right' data-aos-duration='2000'>
+        <p className='id'>IDENTIDADE</p>
       </div>
     </div>
     <ExploreComponent />

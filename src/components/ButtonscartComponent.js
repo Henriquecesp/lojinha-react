@@ -15,10 +15,9 @@ class ButtonToCart extends Component {
               <div>
                 <NavLink to='/Cart'>
                   <button
-                    className='btn btn-success m-1'
-                    disabled={inCart ? true : false}
+                    className='btn btn-success mx-1'
                   >
-                    {inCart ? "No carrinho" : "Ir para o carrinho"}
+                    {inCart ? "No carrinho" : "Ver carrinho"}
                   </button>
                 </NavLink>
               </div>
@@ -34,7 +33,7 @@ class ButtonContinue extends Component {
   render() {
     return (
       <div>
-        <button className='btn btn-outline-info text-uppercase m-2 px-4'>
+        <button className='btn btn-outline-primary text-white text-uppercase mx-1 px-4'>
           <NavLink to='/Products'>Continue comprando</NavLink>
         </button>
       </div>
